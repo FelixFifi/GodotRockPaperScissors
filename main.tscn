@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://cgeyjbqgdmqva"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://bxh3qy8ysb6ah" path="res://bounce.tres" id="1_g7eun"]
+[ext_resource type="Script" path="res://main.gd" id="1_s2uke"]
+[ext_resource type="PackedScene" uid="uid://cbfajkhgjksnc" path="res://3_groups.tscn" id="3_s7012"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hg1eq"]
+size = Vector2(1152, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h2t24"]
+size = Vector2(20, 648)
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_s2uke")
+
+[node name="Walls" type="StaticBody2D" parent="."]
+physics_material_override = ExtResource("1_g7eun")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls"]
+position = Vector2(576, -10)
+shape = SubResource("RectangleShape2D_hg1eq")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Walls"]
+position = Vector2(576, 658)
+shape = SubResource("RectangleShape2D_hg1eq")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Walls"]
+position = Vector2(-10, 324)
+shape = SubResource("RectangleShape2D_h2t24")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Walls"]
+position = Vector2(1162, 324)
+shape = SubResource("RectangleShape2D_h2t24")
+
+[node name="3Groups" parent="." instance=ExtResource("3_s7012")]

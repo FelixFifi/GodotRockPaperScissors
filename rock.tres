@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bfu6nnsdlixip"]
+
+[ext_resource type="Texture2D" uid="uid://cihqk7els6la8" path="res://rock_paper_scissors.png" id="1_eocaj"]
+
+[resource]
+atlas = ExtResource("1_eocaj")
+region = Rect2(0, 0, 100, 100)

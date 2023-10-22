@@ -1,0 +1,125 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbfajkhgjksnc"]
+
+[ext_resource type="PackedScene" uid="uid://dkoqmdt2ap6m6" path="res://rpsobject.tscn" id="1_gvxhc"]
+
+[node name="3Groups" type="Node2D"]
+
+[node name="Paper" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(268, 393)
+linear_velocity = Vector2(-87.7746, -286.872)
+type = 1
+
+[node name="Paper2" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(239, 325)
+linear_velocity = Vector2(-93.6611, 285.005)
+type = 1
+
+[node name="Paper3" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(147, 343)
+linear_velocity = Vector2(273.003, 124.375)
+type = 1
+
+[node name="Paper4" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(174, 416)
+linear_velocity = Vector2(95.3654, -284.439)
+type = 1
+
+[node name="Paper5" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(334, 421)
+linear_velocity = Vector2(-248.901, -167.476)
+type = 1
+
+[node name="Paper6" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(305, 353)
+linear_velocity = Vector2(-233.731, 188.069)
+type = 1
+
+[node name="Paper7" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(213, 371)
+linear_velocity = Vector2(85.0403, 287.695)
+type = 1
+
+[node name="Paper8" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(240, 444)
+linear_velocity = Vector2(115.684, -276.798)
+type = 1
+
+[node name="Rock" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(672, 160)
+linear_velocity = Vector2(53.5654, -295.179)
+type = 0
+
+[node name="Rock2" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(674, 102)
+linear_velocity = Vector2(67.8269, -292.232)
+type = 0
+
+[node name="Rock3" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(753, 99)
+linear_velocity = Vector2(185.906, -235.455)
+type = 0
+
+[node name="Rock4" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(745, 164)
+linear_velocity = Vector2(-231.321, -191.025)
+type = 0
+
+[node name="Rock5" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(793, 196)
+linear_velocity = Vector2(-169.641, -247.43)
+type = 0
+
+[node name="Rock6" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(795, 138)
+linear_velocity = Vector2(-157.058, -255.603)
+type = 0
+
+[node name="Rock7" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(874, 135)
+linear_velocity = Vector2(163.953, 251.236)
+type = 0
+
+[node name="Rock8" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(866, 200)
+linear_velocity = Vector2(217.68, 206.435)
+type = 0
+
+[node name="Scissors" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(910, 453)
+linear_velocity = Vector2(299.873, -8.73578)
+type = 2
+
+[node name="Scissors2" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(966, 396)
+linear_velocity = Vector2(-299.071, -23.5964)
+type = 2
+
+[node name="Scissors3" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(902, 391)
+linear_velocity = Vector2(-253.075, 161.1)
+type = 2
+
+[node name="Scissors4" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(857, 443)
+linear_velocity = Vector2(134.833, -267.993)
+type = 2
+
+[node name="Scissors5" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(938, 520)
+linear_velocity = Vector2(299.999, -0.873313)
+type = 2
+
+[node name="Scissors6" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(1043, 461)
+linear_velocity = Vector2(-238.559, -181.906)
+type = 2
+
+[node name="Scissors7" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(972, 481)
+linear_velocity = Vector2(-290.945, -73.1511)
+type = 2
+
+[node name="Scissors8" parent="." instance=ExtResource("1_gvxhc")]
+position = Vector2(851, 511)
+linear_velocity = Vector2(-262.074, -146.004)
+type = 2
